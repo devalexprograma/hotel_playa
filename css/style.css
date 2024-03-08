@@ -1,0 +1,23 @@
+/* Estilo para el formulario */
+#registroForm {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+.habitacion {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.habitacion-ocupada {
+    background-color: #dc3545; /* Color rojo para habitaciones ocupadas */
+    color: white;
+}
+
+.habitacion-disponible {
+    background-color: #28a745; /* Color verde para habitaciones disponibles */
+    color: white;
+}  
